@@ -919,7 +919,7 @@ if(G>r)r=G;i++}while(i<y){A[i<<1]=0;A[(i<<1)+1]=0;i++}return r}return v}();
 		var opts;  if(levelZero) opts={level:0};
 		
 		
-		var CMPR = (data.length>10e6 && window.UZIP!=null) ? window.UZIP : pako;
+		var CMPR = pako;
 		
 		var time = Date.now();
 		for(var i=0; i<ftry.length; i++) {
